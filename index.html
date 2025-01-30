@@ -43,7 +43,7 @@
 
 <body>
 
-    <section class="hero">
+<section class="hero">
         <div class="hero-body">
             <div class="container is-max-desktop">
                 <div class="columns is-centered">
@@ -58,35 +58,35 @@
                         <div class="column has-text-centered">
                             <div class="publication-links" style="margin-bottom: 0;">
                                 <!-- Main Paper Link. -->
-                                <span class="link-block">
+                            <span class="link-block">
                                     <a href="./static/papers/1_Main_Paper.pdf"
                                        class="external-link button is-normal is-rounded is-dark">
-                                        <span class="icon">
-                                            <i class="ai ai-arxiv"></i>
-                                        </span>
-                                <span>Paper</span>
+                                    <span class="icon">
+                                        <i class="ai ai-arxiv"></i>
+                                    </span>
+                                    <span>Paper</span>
                                 </a>
-                                </span>
-                                <span class="link-block">
+                            </span>
+                            <span class="link-block">
                                     <a href="./static/papers/2_Supplementary.pdf"
                                        class="external-link button is-normal is-rounded is-dark">
-                                        <span class="icon">
-                                            <i class="ai ai-arxiv"></i>
-                                        </span>
-                                <span>Supp</span>
+                                    <span class="icon">
+                                        <i class="ai ai-arxiv"></i>
+                                    </span>
+                                    <span>Supp</span>
                                 </a>
-                                </span>
+                            </span>
                                 <!-- Code Link. -->
-                                <span class="link-block">
+                            <span class="link-block">
                                     <a href="#"
                                        class="external-link button is-normal is-rounded is-dark">
-                                        <span class="icon">
-                                            <i class="fab fa-github"></i>
-                                        </span>
-                                <span>Code</span>
+                                    <span class="icon">
+                                        <i class="fab fa-github"></i>
+                                    </span>
+                                    <span>Code</span>
                                 </a>
-                                </span>
-                            </div>
+                            </span>
+                        </div>
 
                         </div>
                     </div>
@@ -917,6 +917,32 @@
         </div>
     </section>
 
+    <!-- Temporal Embedding Evolution Section -->
+    <section id="temporal-embedding-section" class="section video-section"> 
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-12">
+                    <h2 class="title is-3">Temporal Embedding Evolution</h2>
+
+                    <!-- Video Container -->
+                    <div class="video-compare-container mb-4" style="max-width: 900px; margin: 0 auto;">  <!-- style -->
+                        <video id="embedding-evolution-video" width="100%" height="auto" loop playsinline autoplay muted>
+                            <source src="./static/videos_2025_01_27-Rebuttals/temporal_embedding_evolution.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <!-- Description -->
+                    <div class="content has-text-centered mt-4">
+                        <p class="subtitle">
+                            The temporal embedding matrix evolves from coarse patterns to
+                            <span class="highlight">increasingly fine-grained temporal features</span> throughout the training process.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Bibtex Section -->
 
     <section class="section" id="BibTeX">
@@ -945,7 +971,8 @@
                             <a class="icon-link" href="./static/papers/1_Main_Paper.pdf">
                                 <i class="fas fa-file-pdf"></i>
                             </a>
-                            <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+                            <!-- Changed to point to current page with # -->
+                            <a class="icon-link" href="#" class="external-link">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
