@@ -105,7 +105,6 @@ function initializeVideoComparison() {
     window.addEventListener('touchend', () => isDown = false);
     window.addEventListener('touchmove', handleMove);
 
-    //Add speed control button
     //Add speed control button to the first video group
     const speedControls1 = `
     <div class="speed-controls" style="margin-top: 10px;">
