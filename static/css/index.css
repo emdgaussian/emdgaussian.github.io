@@ -224,6 +224,20 @@ body {
     color: white;
 }
 
+.button.is-warning {
+    background-color: #3273dc;
+    color: white;
+}
+
+.button.is-warning.is-active {
+    background-color: #3273dc;
+    color: white;
+}
+
+.button.is-warning:hover {
+    background-color: #3273dc;
+    color: white;
+}
 
 /* speed control buttons */
 
@@ -445,7 +459,7 @@ body {
 /* gradient background */
 
 .video-section {
-    background: linear-gradient(135deg, #3e7ef513 0%, #cde1fc03 50%, #9ec4f335 100%);
+    background: linear-gradient(135deg, #3e7ef520 0%, #cde1fc20 50%, #9ec4f340 100%);
     padding: 3rem 1.5rem;
     margin: 0;
 }
@@ -454,28 +468,27 @@ body {
 /* Hero section modifications */
 
 .hero .button {
-    background-color: rgba(37, 109, 253, 0.87);
+    background-color: rgba(5, 5, 6, 0.87);
     color: white;
     border: none;
     transition: all 0.3s ease;
 }
 
 .hero .button:hover {
-    background-color: #3a4da1;
+    background-color: #1c1c1c;
+    /* Almost black */
+    color: white;
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 
 /* Zoom section background enhancement */
 
-.zoom-section {
-    background: linear-gradient(135deg, #3e7ef532 0%, #cde1fc03 50%, #3cf93224 100%)!important;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-    /* Reduce overall padding */
-    padding: 0rem 1.5rem;
+.video-section {
+    background: linear-gradient(135deg, #3e7ef530 0%, #cde1fc0a 50%, #9ec4f354 100%);
+    padding: 3rem 1.5rem;
+    margin: 0;
 }
 
 .zoom-section::before {
@@ -496,7 +509,8 @@ body {
 /* Remove background from specific sections */
 
 #rgb-comparison-section,
-#diff-rgb-comparison-section {
+#diff-rgb-comparison-section,
+#temporal-embedding-section {
     background: none;
 }
 
